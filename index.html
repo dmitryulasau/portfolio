@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dmitry Ulasau's portfolio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a class="nav-buttons" href="#">About me</a></li>
+        <li><a class="nav-buttons" href="#">My projects</a></li>
+        <li><a class="nav-buttons" href="#">Contact information</a></li>
+        <li><a class="nav-buttons" href="#">Fun facts</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero image -->
+    <div>
+      <img src="/images/Hero.jpg" />
+      <div class="hero-text">
+        <h1>Hi,</h1>
+        <h1>I'm Dmitry</h1>
+        <h1>Coding Temple student</h1>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <main>
+      <div class="main" class="shadow">
+        <article class="article">
+          <h1 class="heading">Why Learn Python?</h1>
+          <p>
+            Python is a general-purpose, versatile and popular programming
+            language. Python is also a great first language because it is
+            concise and easy to read. A good language to have in any
+            programmer's stack, Python can be used for everything from web
+            development to software development and data science applications.
+          </p>
+        </article>
+        <article class="article">
+          <h1 class="heading">Don't just read code, run it</h1>
+          <p>
+            Following along with lessons by simply reading the code can be a
+            significant problem when people start programming.
+          </p>
+
+          <p>
+            When you are learning how to code, you should try to write and run
+            it by yourself. Take the time to do it - you will understand it
+            better, and you will have fun trying to modify the code to create
+            your programs.
+          </p>
+
+          <p>
+            Here's another example: when you are searching for a code on GitHub,
+            why not try it out? It can be fun to understand someone else's work
+            and be able to integrate it into your project.
+          </p>
+        </article>
+      </div>
+
+      <!-- Side -->
+      <div class="side" class="shadow">
+        <article class="side-article">
+          <img
+            class="side-image"
+            style="opacity: 1; width: 30%"
+            id="profile-image"
+            src="/images/LinkedIN.png"
+            alt="Dmitry Ulasau"
+            width="10%"
+          />
+          <div class="profile-details">
+            <h2>Dmitry Ulasau</h2>
+            <ul>
+              <li>Brooklyn, NY</li>
+              <li>
+                <a href="mailto:hello@gmail.com" class="mail"
+                  >dmitrushok@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="side-article">
+          <h1 class="small-h1">About me</h1>
+
+          <p class="small-p">
+            I am a self-taught web developer with a strong interest in projects
+            that require both conceptual and analytical thinking. Team player
+            with an eye for detail. I'm always eager to learn from anyone and
+            everyone.
+          </p>
+        </article>
+      </div>
+
+      <!-- Forms -->
+
+      <!-- Footer -->
+    </main>
+
+    <div class="contact">
+      <article>
+        <h1 class="contact-h1">Contact Me</h1>
+
+        <br />
+        <form action="mailto:hello@gmail.com" method="POST">
+          <label for="name"><strong>Name</strong></label>
+          <br />
+          <input type="text" id="name" placeholder="Your Name" /> <br />
+          <label for="body"><strong>Message</strong></label>
+          <br />
+          <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+    </div>
+
+    <footer>Copyright &copy; Dmitry Ulasau</footer>
+  </body>
+</html>
